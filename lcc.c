@@ -544,7 +544,7 @@ static void cmd_open(const char *key_path, const char *pk_path, const char *in_p
     int rc = lcc_open_buf(key, pk, sealed, sealed_len, &m, &mlen);
     if (rc != 0) dief("open failed: %s", open_error(rc));
 
-    write_file_mode(out_path, m, mlen, 0644);
+    write_file_mode(out_path, m, mlen, 0600);
 
     printf("opened_bytes=%zu\n", mlen);
 
