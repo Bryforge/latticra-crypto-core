@@ -130,5 +130,5 @@ Planned future work may include:
 - stronger file format documentation
 - test vectors
 - fuzzing
-- CI builds
+- multi-platform CI builds
 - post-quantum extension path using standardized PQC primitives
