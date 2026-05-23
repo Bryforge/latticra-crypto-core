@@ -1,0 +1,8 @@
+lcc
+*.o
+*.lcc
+keys/
+*.key
+*.sk
+msg.txt
+msg.out
